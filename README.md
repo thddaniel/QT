@@ -1,0 +1,4 @@
+QT
+==
+
+ARM,WINDOWS,UBUNTU
