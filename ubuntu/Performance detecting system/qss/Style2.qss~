@@ -1,0 +1,41 @@
+/*---------------------------------------------------------------主要设置----------------------------------------------------------------*/
+
+
+
+
+QLabel{
+   font-size:12px;
+   color:rgb(28, 139, 20);
+   border-color:#516589;
+   font:#FFFFFF;
+
+}
+
+
+/*---------------------------------------------------------以下设置pushbutton的样式-------------------------------------------------*/
+QPushButton{
+
+    border-style: outset;
+    border-width: 2px;				/*boder的长度，有突出效果*/
+    border-radius: 1px;
+    padding: 1px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #969B9C, stop: 0.5 #16354B,
+                                 stop: 1.0 #244F76);
+    border-color: #11505C;
+}
+
+QPushButton::hover{
+
+    
+}
+
+QPushButton::pressed{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,	/*三个坐标对应的是上。中。下的background的颜色*/
+                                 stop: 0 #122C39, stop: 0.5 #758385,
+                                 stop: 1.0 #15A8FF);
+    border-color: #11505C;			/*改变boder的颜色，以便实现动态感觉*/
+}
+
+
+
